@@ -37,7 +37,7 @@
 #print(C)
 #print(T)
 #print(C.find("apple"))
-
+# YES를 입력받던 yes를 입력받던 하나로 통일하는거
 string = input("종료할까요? : " )
 print(string.capitalize())
 print(string.replace("YES" , "yes"))
